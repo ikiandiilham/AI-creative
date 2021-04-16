@@ -6,8 +6,18 @@ body {
 .img-main {
   padding-top: 10rem;
 }
+
 @media screen and (max-width: 425px) {
   .navbar-logo {
     width: 40%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav a:hover {
+    background-color: rgba(252, 252, 252, 0.123);
+  }
+  .img-main {
+    padding-top: 2rem;
   }
 }
