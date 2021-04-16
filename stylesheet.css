@@ -13,6 +13,7 @@ body {
   }
   .navbar-nav {
     text-align: center;
+    /* border: 0.1px solid  white; */
   }
   .navbar-nav a:hover {
     background-color: rgba(252, 252, 252, 0.123);
@@ -23,10 +24,22 @@ body {
     padding: 10px;
     color: whitesmoke;
   }
-  .nav-item a:hover {
-    color: whitesmoke;
-  }
   .img-main {
     padding-top: 2rem;
+  }
+  #profil {
+    font-family: "Lora", serif;
+    text-align: center;
+    color: gray;
+  }
+  #project {
+    font-family: "Lora", serif;
+    text-align: center;
+    color: gray;
+  }
+  #kontak {
+    font-family: "Lora", serif;
+    text-align: center;
+    color: gray;
   }
 }
