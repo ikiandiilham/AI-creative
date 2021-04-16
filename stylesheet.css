@@ -13,7 +13,6 @@ body {
   }
   .navbar-nav {
     text-align: center;
-    /* border: 0.1px solid  white; */
   }
   .navbar-nav a:hover {
     background-color: rgba(252, 252, 252, 0.123);
