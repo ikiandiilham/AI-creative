@@ -1,9 +1,13 @@
-
 body {
-    height: 2000px;
-    background-image: url(assets/image/bg.png);
-    background-size: cover;
+  height: 2000px;
+  background-image: url(assets/image/bg.png);
+  background-size: cover;
 }
 .img-main {
-    padding-top: 10rem;
+  padding-top: 10rem;
+}
+@media screen and (max-width: 425px) {
+  .navbar-logo {
+    width: 40%;
+  }
 }
