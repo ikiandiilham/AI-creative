@@ -13,16 +13,19 @@ body {
   }
   .navbar-nav {
     text-align: center;
-    border: 0.1px solid  white;
+    /* border: 0.1px solid  white; */
   }
   .navbar-nav a:hover {
     background-color: rgba(252, 252, 252, 0.123);
     transition: all 0.5s;
   }
   .nav-item {
-      font-family: lora;
-      padding: 10px;
-
+    font-family: "Lora", serif;
+    padding: 10px;
+    color: whitesmoke;
+  }
+  .nav-item a:hover {
+    color: whitesmoke;
   }
   .img-main {
     padding-top: 2rem;
