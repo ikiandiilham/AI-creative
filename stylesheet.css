@@ -1,12 +1,27 @@
+
 body {
   height: 2000px;
-  background-image: url(assets/image/bg.png);
+  /* background-image: url(assets/image/bg.png); */
   background-size: cover;
 }
 .img-main {
   padding-top: 10rem;
 }
-
+#profil {
+    background-color: #fdd54f;
+    padding-bottom: 3px;
+}
+.me-1 {
+    border: red 1px solid;
+    margin-left: 70%;
+    
+}
+.float-end  {
+    margin-top: 140px;
+}
+.clear {
+    clear: both;
+}
 @media screen and (max-width: 425px) {
   .navbar-logo {
     width: 40%;
@@ -25,12 +40,19 @@ body {
     color: whitesmoke;
   }
   .img-main {
-    padding-top: 3rem;
+    padding: 17rem 0;
+  }
+  .float-end {
+      background-color: #fdd54f;
   }
   #profil {
+    /* border: 1px solid red; */
     font-family: "Lora", serif;
-    text-align: center;
+    text-align: right;
     color: gray;
+    height: 900px;
+    padding-top: 120px;
+    background-color: #fdd54f;
   }
   #project {
     font-family: "Lora", serif;
@@ -42,4 +64,10 @@ body {
     text-align: center;
     color: gray;
   }
+  #img-main {
+      width: 60%;
+  }
+  .float-end  {
+    margin-top: -10px;
+}
 }
