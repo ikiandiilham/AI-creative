@@ -28,7 +28,6 @@ body {
   }
   .navbar-nav {
     text-align: center;
-    /* border: 0.1px solid  white; */
   }
   .navbar-nav a:hover {
     background-color: rgba(252, 252, 252, 0.123);
@@ -40,7 +39,7 @@ body {
     color: whitesmoke;
   }
   .img-main {
-    padding: 15rem 0;
+    padding: 13rem 0;
   }
   .float-end {
       background-color: #fdd54f;
