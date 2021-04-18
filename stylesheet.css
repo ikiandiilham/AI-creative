@@ -14,6 +14,10 @@ body {
   width: 40%;
   margin-top: 8rem;
 }
+#kontak {
+  padding-bottom: 5px;
+  background-color: #fdd54f ;
+}
 .me-1 {
   border: red 1px solid;
   margin-left: 70%;
