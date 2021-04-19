@@ -16,7 +16,7 @@ body {
 }
 #kontak {
   padding-bottom: 5px;
-  background-color: #fdd54f ;
+  background-color: #fdd54f;
 }
 .me-1 {
   border: red 1px solid;
@@ -50,8 +50,13 @@ body {
   .float-end {
     background-color: #fdd54f;
   }
+  /* isi profil */
+  #img-main {
+    width: 80%;
+    margin-right: 40px;
+    margin-top: -40px;
+  }
   #profil {
-    /* border: 1px solid red; */
     font-family: "Lora", serif;
     text-align: right;
     color: rgb(3, 3, 3);
@@ -59,15 +64,34 @@ body {
     padding-top: 120px;
     background-color: #fdd54f;
   }
-  h1 {
+  #nama {
     margin-top: 350px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
   }
+  #profesi {
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+  }
+  #keahlian {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    font-weight: bolder;
+  }
+  /* akhir isi profil */
+
+  /* isi Project */
   #project {
     font-family: "Lora", serif;
     text-align: center;
     color: gray;
   }
+  /* akhir isi project */
+
+  /* isi kontak */
   #kontak {
     font-family: "Lora", serif;
     text-align: center;
@@ -75,12 +99,7 @@ body {
     background-color: #fdd54f;
     padding-bottom: 20px;
   }
-  #img-main {
-    width: 80%;
-    /* float: none; */
-    margin-right: 40px;
-    margin-top: -40px;
-  }
+
   .float-end {
     margin-top: -10px;
   }
