@@ -6,10 +6,33 @@ body {
 .img-main {
   padding-top: 10rem;
 }
+/* isi profil */
 #profil {
   background-color: #fdd54f;
-  padding-bottom: 3px;
+  /* padding-top: -100px; */
 }
+#nama {
+  /* margin-top: 900px; */
+  text-align: center;
+  font-size: 150px;
+  padding-top: 200px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+#profesi {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 90px;
+  font-family: "Poppins", sans-serif;
+}
+#keahlian {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 500px;
+  font-size: 90px;
+  font-weight: bolder;
+}
+/* akhir isi profil */
 #img-main {
   width: 40%;
   margin-top: 8rem;
@@ -65,20 +88,23 @@ body {
     background-color: #fdd54f;
   }
   #nama {
-    margin-top: 300px;
+    margin-top: 100px;
     text-align: center;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
   }
   #profesi {
     text-align: center;
     margin-top: 20px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
   #keahlian {
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin-top: 100px;
+    font-size: 28px;
     font-weight: bolder;
   }
   /* akhir isi profil */
@@ -99,8 +125,7 @@ body {
     background-color: #fdd54f;
     padding-bottom: 20px;
   }
-  /*akhir isi kontak  */
-  
+
   .float-end {
     margin-top: -10px;
   }
