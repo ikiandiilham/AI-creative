@@ -65,14 +65,14 @@ body {
     background-color: #fdd54f;
   }
   #nama {
-    margin-top: 350px;
+    margin-top: 320px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
   }
   #profesi {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
     font-family: "Poppins", sans-serif;
   }
   #keahlian {
@@ -99,7 +99,8 @@ body {
     background-color: #fdd54f;
     padding-bottom: 20px;
   }
-
+  /*akhir isi kontak  */
+  
   .float-end {
     margin-top: -10px;
   }
