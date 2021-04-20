@@ -14,7 +14,7 @@ body {
   /* margin-bottom: 10px; */
 }
 /* gambar profil */
-#img-main {   
+#img-main {
   width: 40%;
   margin-top: 6rem;
 }
@@ -43,15 +43,10 @@ body {
   font-weight: bolder;
 }
 
-
 /* akhir isi profil */
 
-
 /* project */
-#svg-profil {
-  /* border: 1px solid red; */
-  margin-top: -3px;
-}
+
 /* akhir project */
 #kontak {
   padding-bottom: 5px;
@@ -92,9 +87,9 @@ body {
   }
   /* isi profil */
   #img-main {
-    width: 80%;
+    width: 70%;
     margin-right: 40px;
-    margin-top: -40px;
+    margin-top: -50px;
   }
   #profil {
     font-family: "Lora", serif;
@@ -105,21 +100,21 @@ body {
     background-color: #fdd54f;
   }
   #nama {
-    margin-top: 110px;
+    margin-top: 50px;
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
   }
   #profesi {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 23px;
     font-family: "Poppins", sans-serif;
     margin-bottom: -1px;
   }
-  .col-sm-5 {
-    width: 90%; 
+  .col-md-5 {
+    width: 90%;
   }
   .card-header {
     font-size: 18px;
