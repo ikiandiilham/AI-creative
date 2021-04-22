@@ -145,15 +145,22 @@ body {
     color: gray;
   }
   .w-100 {
-    width: 92% !important;
+    width: 80% !important;
     height: auto;
   }
   .carousel-item {
-    height: 470px;
+    height: 500px;
   }
   .w-10 {
-    width: 100% !important;
+    width: 95% !important;
     height: auto;
+  }
+  #h5 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .carousel-caption {
+    font-size: 12px;
   }
 
   /* akhir isi project */
