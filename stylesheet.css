@@ -150,7 +150,7 @@ body {
   }
   .w-10 {
     width: 100% !important;
-    height: 303px;
+    height: auto;
   }
 
   /* akhir isi project */
