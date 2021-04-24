@@ -18,7 +18,7 @@ body {
 }
 #nama {
   text-align: center;
-  font-size: 140px;
+  font-size: 90px;
   padding-top: 200px;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
@@ -27,7 +27,7 @@ body {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 70px;
-  font-size: 75px;
+  font-size: 55px;
   font-family: "Poppins", sans-serif;
 }
 .col-sm-5 {
@@ -49,7 +49,6 @@ body {
 }
 /* akhir bagian text */
 
-
 .w-100 {
   width: 40% !important;
   height: auto;
@@ -66,10 +65,33 @@ body {
 }
 /* akhir project */
 
+/* kontak */
 #kontak {
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
+  height: 1000px;
   background-color: #fdd54f;
 }
+.container {
+  padding-top: 120px;
+}
+.btn {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/*  akhir kontak */
+
+/* footer */
+footer p {
+  font-size: 26px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+footer p a {
+  text-decoration: none;
+  color: #fffaeb ;
+}
+/* akhir footer */
+
 .me-1 {
   border: red 1px solid;
   margin-left: 70%;
@@ -81,7 +103,137 @@ body {
 .clear {
   clear: both;
 }
+/* mobile small and mid */
 @media screen and (max-width: 425px) {
+  /* home */
+  .navbar-logo {
+    width: 40%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav a:hover {
+    background-color: rgba(252, 252, 252, 0.123);
+    transition: all 0.5s;
+  }
+  .nav-item {
+    font-family: "Lora", serif;
+    padding: 10px;
+    color: whitesmoke;
+  }
+  .img-main {
+    padding: 13rem 0;
+  }
+  .float-end {
+    background-color: #fdd54f;
+  }
+  /* akhir home */
+
+  /* isi profil */
+  #img-main {
+    width: 65%;
+    margin-right: 68px;
+    margin-top: -50px;
+  }
+  #profil {
+    font-family: "Lora", serif;
+    text-align: right;
+    color: rgb(3, 3, 3);
+    height: auto;
+    padding-top: 120px;
+    background-color: #fdd54f;
+  }
+  #nama {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+  }
+  #profesi {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -1px;
+  }
+  .col-md-5 {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+  .card-header {
+    font-size: 18px;
+  }
+  /* akhir isi profil */
+
+  /* isi Project */
+  #project {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: gray;
+  }
+  .w-100 {
+    width: 80% !important;
+    height: auto;
+  }
+  .carousel-item {
+    height: 500px;
+  }
+  .w-10 {
+    width: 95% !important;
+    height: auto;
+  }
+  #h5 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .carousel-caption {
+    font-size: 12px;
+  }
+
+  /* akhir isi project */
+
+  /* isi kontak */
+  #kontak {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    /* color: gray; */
+    background-color: #fdd54f;
+    padding-bottom: 20px;
+  }
+  .row .col-md-4 h3 {
+    font-weight: 800;
+  }
+  .container {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+  .container .row {
+    margin: 0px;
+  }
+  .btn {
+    margin-top: 15px;
+    font-weight: 600;
+    /* margin-bottom: 90px; */
+  }
+  /* akhir isi kontak */
+  .float-end {
+    margin-top: -10px;
+  }
+  /* footer */
+  footer p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  footer p a {
+    text-decoration: none;
+    color: #fffaeb ;
+  }
+  /* akhir footer */
+}
+/* mobile mid and tablet */
+@media screen and (max-width: 375px) {
   /* home */
   .navbar-logo {
     width: 40%;
@@ -145,7 +297,7 @@ body {
 
   /* isi Project */
   #project {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     color: gray;
   }
@@ -172,14 +324,40 @@ body {
 
   /* isi kontak */
   #kontak {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    color: gray;
+    font-weight: 600;
+    /* color: gray; */
     background-color: #fdd54f;
     padding-bottom: 20px;
+  }
+  .row .col-md-4 h3 {
+    font-weight: 800;
+  }
+  .container {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  .container .row {
+    margin: 0px;
+  }
+  .btn {
+    margin-top: 10px;
+    font-weight: 600;
+    /* margin-bottom: 90px; */
   }
   /* akhir isi kontak */
   .float-end {
     margin-top: -10px;
   }
+  /* footer */
+  footer p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  footer p a {
+    text-decoration: none;
+    color: #fffaeb ;
+  }
+  /* akhir footer */
 }
